@@ -8,9 +8,11 @@ const state = {
         enemy : document.querySelector('.enemy'),
         time : document.querySelector('#time'),
         score : document.querySelector('#score'), 
+        lives : document.querySelector('#lives'),
     },
 
     values:{
+        vidas: 3,
         timerId : null,
       
         tempoC : 60,
@@ -41,6 +43,13 @@ function addListenerHitBox() {
         state.viem.score.textContent = state.values.result;
         state.values.hitPosition = null;
         playSound();
+    }else{
+        state.values.vidas--;
+        state.viem.lives.textContent = state.values.vidas;
+        if(state.values.vidas<= 0){
+            alert(`Fim de jogo sua pontuação foi ${state.values.result}`)
+            location.reload()
+        }
     }
 
    });
@@ -58,6 +67,7 @@ function countDown(){
         clearInterval(state.actions.countDownTimerid);
         clearInterval(state.values.countDown);
         alert(`Game over sua pontuação foi ${state.values.result}`)
+        location.reload()
     }
 }
 
