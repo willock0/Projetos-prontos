@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/* Media mobile */
+
+*{
+  
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html , body{
+    background-color: black;
+    position: fixed;
+}
+header {
+    width: 100vw;
+    height: 12vh;
+    display: block;
+    background-image: url(../img/pexels-anniroenkae-3219951.jpg);
+    background-size: cover;
+    background-color: black;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.151);}
+    section{
+    background-color: rgb(255, 255, 255);
+    height: 78vh;
+}
+div#geral{
+    border: 2px solid black;
+    position: relative;
+    display: block;
+    height: 450px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    
+
+}
+
+    h1{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(158, 6, 6, 0);
+    width: 400px;
+
+}
+p#ola{
+    text-align: center;
+    padding: 20px 10px;}
+    div#img{
+   
+    display: block;
+    
+
+}
+    div#form{
+    display: block;
+    position: relative;
+    width: 100;
+    height: 100;
+    transform: translate(+8% ,-125%);
+    
+
+   }
+div#img{
+     background-image: url(../img/pexels-anniroenkae-3219951.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 450px;
+    overflow: hidden;
+}
+input.corno{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 5px solid rgba(0, 0, 0, 0.089);
+    flex: auto;
+    flex-flow: column;
+    text-align: center;
+    font-size: large;
+
+}
+label{
+    display:none;
+    background-color: rgb(0, 0, 0);
+}
+#caixas{
+   
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 2em;
+
+}
+#enviar{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+
+}
+div.campo > i{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;   
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    justify-content: center center;
+    padding-bottom: 0px;
+}
+/*
+
+
+}
+
+
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    border-radius: 5px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    transform: translate(-50% -50%);
+    display: flex;
+}
+
+    
+    left: 50%;
+    overflow: hidden;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    transform :translate(-50%, -50%) ;
+    display: flex;
+
+
+}
+
+}
+div.campo{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    
+}
+
+input.corno{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    padding:10px;
+    border-radius: 5px;
+    border: 8px solid rgba(0, 0, 0, 0.089);
+}
+label{
+    display:none;
+    background-color: rgb(0, 0, 0);
+}
+
+div.campo > i{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    font-size: 2.0em;
+    width: 35px;
+    flex: auto;
+    align-self: center;
+    padding-bottom: 20px;
+}
+div#enviar {
+    display: flex;
+    text-align: center;
+    flex-flow: nowrap;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 20px;
+    font-size: 2.0em;
+ 
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    justify-content: center center;
+    padding-bottom: 0px;
+}/*
