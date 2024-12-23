@@ -9,3 +9,6 @@ https://willock0.github.io/Projetos-prontos/cordel-moderno/
 
 Projeto redes sociais com Gustavo Guanabara
 https://willock0.github.io/Projetos-prontos/projeto-social/
+
+Projeto Pokedex
+https://willock0.github.io/Projetos-prontos/DesafioPokedex/
